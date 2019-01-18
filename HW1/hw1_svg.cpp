@@ -2,7 +2,9 @@
  * hw1_svg.cpp
  *
  *  Created on: Oct 18, 2018
- *      Author: Nevra
+ *      Author: Nevra Gürses
+ *C++ program that will optimize some 2D shapes and produce SVG (Scalable
+Vector Graphics) files to display calculated 2D graphics.
  */
 #include <iostream>
 #include <fstream>
