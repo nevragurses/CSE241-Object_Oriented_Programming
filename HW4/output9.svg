@@ -1,0 +1,1161 @@
+<svg version="1.1" baseProfile="full" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"> <polygon  points="128 0
+0 221.7
+256 221.7
+" fill="red"/> 
+<polygon  points="128 0
+120.5 12.9904
+135.5 12.9904
+" fill="green"/> 
+<polygon  points="120.5 12.9904
+113 25.9808
+128 25.9808
+" fill="green"/> 
+<polygon  points="135.5 12.9904
+128 25.9808
+143 25.9808
+" fill="green"/> 
+<polygon  points="113 25.9808
+105.5 38.9711
+120.5 38.9711
+" fill="green"/> 
+<polygon  points="128 25.9808
+120.5 38.9711
+135.5 38.9711
+" fill="green"/> 
+<polygon  points="143 25.9808
+135.5 38.9711
+150.5 38.9711
+" fill="green"/> 
+<polygon  points="105.5 38.9711
+98 51.9615
+113 51.9615
+" fill="green"/> 
+<polygon  points="120.5 38.9711
+113 51.9615
+128 51.9615
+" fill="green"/> 
+<polygon  points="135.5 38.9711
+128 51.9615
+143 51.9615
+" fill="green"/> 
+<polygon  points="150.5 38.9711
+143 51.9615
+158 51.9615
+" fill="green"/> 
+<polygon  points="98 51.9615
+90.5 64.9519
+105.5 64.9519
+" fill="green"/> 
+<polygon  points="113 51.9615
+105.5 64.9519
+120.5 64.9519
+" fill="green"/> 
+<polygon  points="128 51.9615
+120.5 64.9519
+135.5 64.9519
+" fill="green"/> 
+<polygon  points="143 51.9615
+135.5 64.9519
+150.5 64.9519
+" fill="green"/> 
+<polygon  points="158 51.9615
+150.5 64.9519
+165.5 64.9519
+" fill="green"/> 
+<polygon  points="90.5 64.9519
+83 77.9423
+98 77.9423
+" fill="green"/> 
+<polygon  points="105.5 64.9519
+98 77.9423
+113 77.9423
+" fill="green"/> 
+<polygon  points="120.5 64.9519
+113 77.9423
+128 77.9423
+" fill="green"/> 
+<polygon  points="135.5 64.9519
+128 77.9423
+143 77.9423
+" fill="green"/> 
+<polygon  points="150.5 64.9519
+143 77.9423
+158 77.9423
+" fill="green"/> 
+<polygon  points="165.5 64.9519
+158 77.9423
+173 77.9423
+" fill="green"/> 
+<polygon  points="83 77.9423
+75.5 90.9327
+90.5 90.9327
+" fill="green"/> 
+<polygon  points="98 77.9423
+90.5 90.9327
+105.5 90.9327
+" fill="green"/> 
+<polygon  points="113 77.9423
+105.5 90.9327
+120.5 90.9327
+" fill="green"/> 
+<polygon  points="128 77.9423
+120.5 90.9327
+135.5 90.9327
+" fill="green"/> 
+<polygon  points="143 77.9423
+135.5 90.9327
+150.5 90.9327
+" fill="green"/> 
+<polygon  points="158 77.9423
+150.5 90.9327
+165.5 90.9327
+" fill="green"/> 
+<polygon  points="173 77.9423
+165.5 90.9327
+180.5 90.9327
+" fill="green"/> 
+<polygon  points="75.5 90.9327
+68 103.923
+83 103.923
+" fill="green"/> 
+<polygon  points="90.5 90.9327
+83 103.923
+98 103.923
+" fill="green"/> 
+<polygon  points="105.5 90.9327
+98 103.923
+113 103.923
+" fill="green"/> 
+<polygon  points="120.5 90.9327
+113 103.923
+128 103.923
+" fill="green"/> 
+<polygon  points="135.5 90.9327
+128 103.923
+143 103.923
+" fill="green"/> 
+<polygon  points="150.5 90.9327
+143 103.923
+158 103.923
+" fill="green"/> 
+<polygon  points="165.5 90.9327
+158 103.923
+173 103.923
+" fill="green"/> 
+<polygon  points="180.5 90.9327
+173 103.923
+188 103.923
+" fill="green"/> 
+<polygon  points="68 103.923
+60.5 116.913
+75.5 116.913
+" fill="green"/> 
+<polygon  points="83 103.923
+75.5 116.913
+90.5 116.913
+" fill="green"/> 
+<polygon  points="98 103.923
+90.5 116.913
+105.5 116.913
+" fill="green"/> 
+<polygon  points="113 103.923
+105.5 116.913
+120.5 116.913
+" fill="green"/> 
+<polygon  points="128 103.923
+120.5 116.913
+135.5 116.913
+" fill="green"/> 
+<polygon  points="143 103.923
+135.5 116.913
+150.5 116.913
+" fill="green"/> 
+<polygon  points="158 103.923
+150.5 116.913
+165.5 116.913
+" fill="green"/> 
+<polygon  points="173 103.923
+165.5 116.913
+180.5 116.913
+" fill="green"/> 
+<polygon  points="188 103.923
+180.5 116.913
+195.5 116.913
+" fill="green"/> 
+<polygon  points="60.5 116.913
+53 129.904
+68 129.904
+" fill="green"/> 
+<polygon  points="75.5 116.913
+68 129.904
+83 129.904
+" fill="green"/> 
+<polygon  points="90.5 116.913
+83 129.904
+98 129.904
+" fill="green"/> 
+<polygon  points="105.5 116.913
+98 129.904
+113 129.904
+" fill="green"/> 
+<polygon  points="120.5 116.913
+113 129.904
+128 129.904
+" fill="green"/> 
+<polygon  points="135.5 116.913
+128 129.904
+143 129.904
+" fill="green"/> 
+<polygon  points="150.5 116.913
+143 129.904
+158 129.904
+" fill="green"/> 
+<polygon  points="165.5 116.913
+158 129.904
+173 129.904
+" fill="green"/> 
+<polygon  points="180.5 116.913
+173 129.904
+188 129.904
+" fill="green"/> 
+<polygon  points="195.5 116.913
+188 129.904
+203 129.904
+" fill="green"/> 
+<polygon  points="53 129.904
+45.5 142.894
+60.5 142.894
+" fill="green"/> 
+<polygon  points="68 129.904
+60.5 142.894
+75.5 142.894
+" fill="green"/> 
+<polygon  points="83 129.904
+75.5 142.894
+90.5 142.894
+" fill="green"/> 
+<polygon  points="98 129.904
+90.5 142.894
+105.5 142.894
+" fill="green"/> 
+<polygon  points="113 129.904
+105.5 142.894
+120.5 142.894
+" fill="green"/> 
+<polygon  points="128 129.904
+120.5 142.894
+135.5 142.894
+" fill="green"/> 
+<polygon  points="143 129.904
+135.5 142.894
+150.5 142.894
+" fill="green"/> 
+<polygon  points="158 129.904
+150.5 142.894
+165.5 142.894
+" fill="green"/> 
+<polygon  points="173 129.904
+165.5 142.894
+180.5 142.894
+" fill="green"/> 
+<polygon  points="188 129.904
+180.5 142.894
+195.5 142.894
+" fill="green"/> 
+<polygon  points="203 129.904
+195.5 142.894
+210.5 142.894
+" fill="green"/> 
+<polygon  points="45.5 142.894
+38 155.885
+53 155.885
+" fill="green"/> 
+<polygon  points="60.5 142.894
+53 155.885
+68 155.885
+" fill="green"/> 
+<polygon  points="75.5 142.894
+68 155.885
+83 155.885
+" fill="green"/> 
+<polygon  points="90.5 142.894
+83 155.885
+98 155.885
+" fill="green"/> 
+<polygon  points="105.5 142.894
+98 155.885
+113 155.885
+" fill="green"/> 
+<polygon  points="120.5 142.894
+113 155.885
+128 155.885
+" fill="green"/> 
+<polygon  points="135.5 142.894
+128 155.885
+143 155.885
+" fill="green"/> 
+<polygon  points="150.5 142.894
+143 155.885
+158 155.885
+" fill="green"/> 
+<polygon  points="165.5 142.894
+158 155.885
+173 155.885
+" fill="green"/> 
+<polygon  points="180.5 142.894
+173 155.885
+188 155.885
+" fill="green"/> 
+<polygon  points="195.5 142.894
+188 155.885
+203 155.885
+" fill="green"/> 
+<polygon  points="210.5 142.894
+203 155.885
+218 155.885
+" fill="green"/> 
+<polygon  points="38 155.885
+30.5 168.875
+45.5 168.875
+" fill="green"/> 
+<polygon  points="53 155.885
+45.5 168.875
+60.5 168.875
+" fill="green"/> 
+<polygon  points="68 155.885
+60.5 168.875
+75.5 168.875
+" fill="green"/> 
+<polygon  points="83 155.885
+75.5 168.875
+90.5 168.875
+" fill="green"/> 
+<polygon  points="98 155.885
+90.5 168.875
+105.5 168.875
+" fill="green"/> 
+<polygon  points="113 155.885
+105.5 168.875
+120.5 168.875
+" fill="green"/> 
+<polygon  points="128 155.885
+120.5 168.875
+135.5 168.875
+" fill="green"/> 
+<polygon  points="143 155.885
+135.5 168.875
+150.5 168.875
+" fill="green"/> 
+<polygon  points="158 155.885
+150.5 168.875
+165.5 168.875
+" fill="green"/> 
+<polygon  points="173 155.885
+165.5 168.875
+180.5 168.875
+" fill="green"/> 
+<polygon  points="188 155.885
+180.5 168.875
+195.5 168.875
+" fill="green"/> 
+<polygon  points="203 155.885
+195.5 168.875
+210.5 168.875
+" fill="green"/> 
+<polygon  points="218 155.885
+210.5 168.875
+225.5 168.875
+" fill="green"/> 
+<polygon  points="30.5 168.875
+23 181.865
+38 181.865
+" fill="green"/> 
+<polygon  points="45.5 168.875
+38 181.865
+53 181.865
+" fill="green"/> 
+<polygon  points="60.5 168.875
+53 181.865
+68 181.865
+" fill="green"/> 
+<polygon  points="75.5 168.875
+68 181.865
+83 181.865
+" fill="green"/> 
+<polygon  points="90.5 168.875
+83 181.865
+98 181.865
+" fill="green"/> 
+<polygon  points="105.5 168.875
+98 181.865
+113 181.865
+" fill="green"/> 
+<polygon  points="120.5 168.875
+113 181.865
+128 181.865
+" fill="green"/> 
+<polygon  points="135.5 168.875
+128 181.865
+143 181.865
+" fill="green"/> 
+<polygon  points="150.5 168.875
+143 181.865
+158 181.865
+" fill="green"/> 
+<polygon  points="165.5 168.875
+158 181.865
+173 181.865
+" fill="green"/> 
+<polygon  points="180.5 168.875
+173 181.865
+188 181.865
+" fill="green"/> 
+<polygon  points="195.5 168.875
+188 181.865
+203 181.865
+" fill="green"/> 
+<polygon  points="210.5 168.875
+203 181.865
+218 181.865
+" fill="green"/> 
+<polygon  points="225.5 168.875
+218 181.865
+233 181.865
+" fill="green"/> 
+<polygon  points="23 181.865
+15.5 194.856
+30.5 194.856
+" fill="green"/> 
+<polygon  points="38 181.865
+30.5 194.856
+45.5 194.856
+" fill="green"/> 
+<polygon  points="53 181.865
+45.5 194.856
+60.5 194.856
+" fill="green"/> 
+<polygon  points="68 181.865
+60.5 194.856
+75.5 194.856
+" fill="green"/> 
+<polygon  points="83 181.865
+75.5 194.856
+90.5 194.856
+" fill="green"/> 
+<polygon  points="98 181.865
+90.5 194.856
+105.5 194.856
+" fill="green"/> 
+<polygon  points="113 181.865
+105.5 194.856
+120.5 194.856
+" fill="green"/> 
+<polygon  points="128 181.865
+120.5 194.856
+135.5 194.856
+" fill="green"/> 
+<polygon  points="143 181.865
+135.5 194.856
+150.5 194.856
+" fill="green"/> 
+<polygon  points="158 181.865
+150.5 194.856
+165.5 194.856
+" fill="green"/> 
+<polygon  points="173 181.865
+165.5 194.856
+180.5 194.856
+" fill="green"/> 
+<polygon  points="188 181.865
+180.5 194.856
+195.5 194.856
+" fill="green"/> 
+<polygon  points="203 181.865
+195.5 194.856
+210.5 194.856
+" fill="green"/> 
+<polygon  points="218 181.865
+210.5 194.856
+225.5 194.856
+" fill="green"/> 
+<polygon  points="233 181.865
+225.5 194.856
+240.5 194.856
+" fill="green"/> 
+<polygon  points="15.5 194.856
+8 207.846
+23 207.846
+" fill="green"/> 
+<polygon  points="30.5 194.856
+23 207.846
+38 207.846
+" fill="green"/> 
+<polygon  points="45.5 194.856
+38 207.846
+53 207.846
+" fill="green"/> 
+<polygon  points="60.5 194.856
+53 207.846
+68 207.846
+" fill="green"/> 
+<polygon  points="75.5 194.856
+68 207.846
+83 207.846
+" fill="green"/> 
+<polygon  points="90.5 194.856
+83 207.846
+98 207.846
+" fill="green"/> 
+<polygon  points="105.5 194.856
+98 207.846
+113 207.846
+" fill="green"/> 
+<polygon  points="120.5 194.856
+113 207.846
+128 207.846
+" fill="green"/> 
+<polygon  points="135.5 194.856
+128 207.846
+143 207.846
+" fill="green"/> 
+<polygon  points="150.5 194.856
+143 207.846
+158 207.846
+" fill="green"/> 
+<polygon  points="165.5 194.856
+158 207.846
+173 207.846
+" fill="green"/> 
+<polygon  points="180.5 194.856
+173 207.846
+188 207.846
+" fill="green"/> 
+<polygon  points="195.5 194.856
+188 207.846
+203 207.846
+" fill="green"/> 
+<polygon  points="210.5 194.856
+203 207.846
+218 207.846
+" fill="green"/> 
+<polygon  points="225.5 194.856
+218 207.846
+233 207.846
+" fill="green"/> 
+<polygon  points="240.5 194.856
+233 207.846
+248 207.846
+" fill="green"/> 
+<polygon  points="8 207.846
+0.5 220.836
+15.5 220.836
+" fill="green"/> 
+<polygon  points="23 207.846
+15.5 220.836
+30.5 220.836
+" fill="green"/> 
+<polygon  points="38 207.846
+30.5 220.836
+45.5 220.836
+" fill="green"/> 
+<polygon  points="53 207.846
+45.5 220.836
+60.5 220.836
+" fill="green"/> 
+<polygon  points="68 207.846
+60.5 220.836
+75.5 220.836
+" fill="green"/> 
+<polygon  points="83 207.846
+75.5 220.836
+90.5 220.836
+" fill="green"/> 
+<polygon  points="98 207.846
+90.5 220.836
+105.5 220.836
+" fill="green"/> 
+<polygon  points="113 207.846
+105.5 220.836
+120.5 220.836
+" fill="green"/> 
+<polygon  points="128 207.846
+120.5 220.836
+135.5 220.836
+" fill="green"/> 
+<polygon  points="143 207.846
+135.5 220.836
+150.5 220.836
+" fill="green"/> 
+<polygon  points="158 207.846
+150.5 220.836
+165.5 220.836
+" fill="green"/> 
+<polygon  points="173 207.846
+165.5 220.836
+180.5 220.836
+" fill="green"/> 
+<polygon  points="188 207.846
+180.5 220.836
+195.5 220.836
+" fill="green"/> 
+<polygon  points="203 207.846
+195.5 220.836
+210.5 220.836
+" fill="green"/> 
+<polygon  points="218 207.846
+210.5 220.836
+225.5 220.836
+" fill="green"/> 
+<polygon  points="233 207.846
+225.5 220.836
+240.5 220.836
+" fill="green"/> 
+<polygon  points="248 207.846
+240.5 220.836
+255.5 220.836
+" fill="green"/> 
+<polygon  points="128 25.9808
+120.5 12.9904
+135.5 12.9904
+" fill="green"/> 
+<polygon  points="120.5 38.9711
+113 25.9808
+128 25.9808
+" fill="green"/> 
+<polygon  points="135.5 38.9711
+128 25.9808
+143 25.9808
+" fill="green"/> 
+<polygon  points="113 51.9615
+105.5 38.9711
+120.5 38.9711
+" fill="green"/> 
+<polygon  points="128 51.9615
+120.5 38.9711
+135.5 38.9711
+" fill="green"/> 
+<polygon  points="143 51.9615
+135.5 38.9711
+150.5 38.9711
+" fill="green"/> 
+<polygon  points="105.5 64.9519
+98 51.9615
+113 51.9615
+" fill="green"/> 
+<polygon  points="120.5 64.9519
+113 51.9615
+128 51.9615
+" fill="green"/> 
+<polygon  points="135.5 64.9519
+128 51.9615
+143 51.9615
+" fill="green"/> 
+<polygon  points="150.5 64.9519
+143 51.9615
+158 51.9615
+" fill="green"/> 
+<polygon  points="98 77.9423
+90.5 64.9519
+105.5 64.9519
+" fill="green"/> 
+<polygon  points="113 77.9423
+105.5 64.9519
+120.5 64.9519
+" fill="green"/> 
+<polygon  points="128 77.9423
+120.5 64.9519
+135.5 64.9519
+" fill="green"/> 
+<polygon  points="143 77.9423
+135.5 64.9519
+150.5 64.9519
+" fill="green"/> 
+<polygon  points="158 77.9423
+150.5 64.9519
+165.5 64.9519
+" fill="green"/> 
+<polygon  points="90.5 90.9327
+83 77.9423
+98 77.9423
+" fill="green"/> 
+<polygon  points="105.5 90.9327
+98 77.9423
+113 77.9423
+" fill="green"/> 
+<polygon  points="120.5 90.9327
+113 77.9423
+128 77.9423
+" fill="green"/> 
+<polygon  points="135.5 90.9327
+128 77.9423
+143 77.9423
+" fill="green"/> 
+<polygon  points="150.5 90.9327
+143 77.9423
+158 77.9423
+" fill="green"/> 
+<polygon  points="165.5 90.9327
+158 77.9423
+173 77.9423
+" fill="green"/> 
+<polygon  points="83 103.923
+75.5 90.9327
+90.5 90.9327
+" fill="green"/> 
+<polygon  points="98 103.923
+90.5 90.9327
+105.5 90.9327
+" fill="green"/> 
+<polygon  points="113 103.923
+105.5 90.9327
+120.5 90.9327
+" fill="green"/> 
+<polygon  points="128 103.923
+120.5 90.9327
+135.5 90.9327
+" fill="green"/> 
+<polygon  points="143 103.923
+135.5 90.9327
+150.5 90.9327
+" fill="green"/> 
+<polygon  points="158 103.923
+150.5 90.9327
+165.5 90.9327
+" fill="green"/> 
+<polygon  points="173 103.923
+165.5 90.9327
+180.5 90.9327
+" fill="green"/> 
+<polygon  points="75.5 116.913
+68 103.923
+83 103.923
+" fill="green"/> 
+<polygon  points="90.5 116.913
+83 103.923
+98 103.923
+" fill="green"/> 
+<polygon  points="105.5 116.913
+98 103.923
+113 103.923
+" fill="green"/> 
+<polygon  points="120.5 116.913
+113 103.923
+128 103.923
+" fill="green"/> 
+<polygon  points="135.5 116.913
+128 103.923
+143 103.923
+" fill="green"/> 
+<polygon  points="150.5 116.913
+143 103.923
+158 103.923
+" fill="green"/> 
+<polygon  points="165.5 116.913
+158 103.923
+173 103.923
+" fill="green"/> 
+<polygon  points="180.5 116.913
+173 103.923
+188 103.923
+" fill="green"/> 
+<polygon  points="68 129.904
+60.5 116.913
+75.5 116.913
+" fill="green"/> 
+<polygon  points="83 129.904
+75.5 116.913
+90.5 116.913
+" fill="green"/> 
+<polygon  points="98 129.904
+90.5 116.913
+105.5 116.913
+" fill="green"/> 
+<polygon  points="113 129.904
+105.5 116.913
+120.5 116.913
+" fill="green"/> 
+<polygon  points="128 129.904
+120.5 116.913
+135.5 116.913
+" fill="green"/> 
+<polygon  points="143 129.904
+135.5 116.913
+150.5 116.913
+" fill="green"/> 
+<polygon  points="158 129.904
+150.5 116.913
+165.5 116.913
+" fill="green"/> 
+<polygon  points="173 129.904
+165.5 116.913
+180.5 116.913
+" fill="green"/> 
+<polygon  points="188 129.904
+180.5 116.913
+195.5 116.913
+" fill="green"/> 
+<polygon  points="60.5 142.894
+53 129.904
+68 129.904
+" fill="green"/> 
+<polygon  points="75.5 142.894
+68 129.904
+83 129.904
+" fill="green"/> 
+<polygon  points="90.5 142.894
+83 129.904
+98 129.904
+" fill="green"/> 
+<polygon  points="105.5 142.894
+98 129.904
+113 129.904
+" fill="green"/> 
+<polygon  points="120.5 142.894
+113 129.904
+128 129.904
+" fill="green"/> 
+<polygon  points="135.5 142.894
+128 129.904
+143 129.904
+" fill="green"/> 
+<polygon  points="150.5 142.894
+143 129.904
+158 129.904
+" fill="green"/> 
+<polygon  points="165.5 142.894
+158 129.904
+173 129.904
+" fill="green"/> 
+<polygon  points="180.5 142.894
+173 129.904
+188 129.904
+" fill="green"/> 
+<polygon  points="195.5 142.894
+188 129.904
+203 129.904
+" fill="green"/> 
+<polygon  points="53 155.885
+45.5 142.894
+60.5 142.894
+" fill="green"/> 
+<polygon  points="68 155.885
+60.5 142.894
+75.5 142.894
+" fill="green"/> 
+<polygon  points="83 155.885
+75.5 142.894
+90.5 142.894
+" fill="green"/> 
+<polygon  points="98 155.885
+90.5 142.894
+105.5 142.894
+" fill="green"/> 
+<polygon  points="113 155.885
+105.5 142.894
+120.5 142.894
+" fill="green"/> 
+<polygon  points="128 155.885
+120.5 142.894
+135.5 142.894
+" fill="green"/> 
+<polygon  points="143 155.885
+135.5 142.894
+150.5 142.894
+" fill="green"/> 
+<polygon  points="158 155.885
+150.5 142.894
+165.5 142.894
+" fill="green"/> 
+<polygon  points="173 155.885
+165.5 142.894
+180.5 142.894
+" fill="green"/> 
+<polygon  points="188 155.885
+180.5 142.894
+195.5 142.894
+" fill="green"/> 
+<polygon  points="203 155.885
+195.5 142.894
+210.5 142.894
+" fill="green"/> 
+<polygon  points="45.5 168.875
+38 155.885
+53 155.885
+" fill="green"/> 
+<polygon  points="60.5 168.875
+53 155.885
+68 155.885
+" fill="green"/> 
+<polygon  points="75.5 168.875
+68 155.885
+83 155.885
+" fill="green"/> 
+<polygon  points="90.5 168.875
+83 155.885
+98 155.885
+" fill="green"/> 
+<polygon  points="105.5 168.875
+98 155.885
+113 155.885
+" fill="green"/> 
+<polygon  points="120.5 168.875
+113 155.885
+128 155.885
+" fill="green"/> 
+<polygon  points="135.5 168.875
+128 155.885
+143 155.885
+" fill="green"/> 
+<polygon  points="150.5 168.875
+143 155.885
+158 155.885
+" fill="green"/> 
+<polygon  points="165.5 168.875
+158 155.885
+173 155.885
+" fill="green"/> 
+<polygon  points="180.5 168.875
+173 155.885
+188 155.885
+" fill="green"/> 
+<polygon  points="195.5 168.875
+188 155.885
+203 155.885
+" fill="green"/> 
+<polygon  points="210.5 168.875
+203 155.885
+218 155.885
+" fill="green"/> 
+<polygon  points="38 181.865
+30.5 168.875
+45.5 168.875
+" fill="green"/> 
+<polygon  points="53 181.865
+45.5 168.875
+60.5 168.875
+" fill="green"/> 
+<polygon  points="68 181.865
+60.5 168.875
+75.5 168.875
+" fill="green"/> 
+<polygon  points="83 181.865
+75.5 168.875
+90.5 168.875
+" fill="green"/> 
+<polygon  points="98 181.865
+90.5 168.875
+105.5 168.875
+" fill="green"/> 
+<polygon  points="113 181.865
+105.5 168.875
+120.5 168.875
+" fill="green"/> 
+<polygon  points="128 181.865
+120.5 168.875
+135.5 168.875
+" fill="green"/> 
+<polygon  points="143 181.865
+135.5 168.875
+150.5 168.875
+" fill="green"/> 
+<polygon  points="158 181.865
+150.5 168.875
+165.5 168.875
+" fill="green"/> 
+<polygon  points="173 181.865
+165.5 168.875
+180.5 168.875
+" fill="green"/> 
+<polygon  points="188 181.865
+180.5 168.875
+195.5 168.875
+" fill="green"/> 
+<polygon  points="203 181.865
+195.5 168.875
+210.5 168.875
+" fill="green"/> 
+<polygon  points="218 181.865
+210.5 168.875
+225.5 168.875
+" fill="green"/> 
+<polygon  points="30.5 194.856
+23 181.865
+38 181.865
+" fill="green"/> 
+<polygon  points="45.5 194.856
+38 181.865
+53 181.865
+" fill="green"/> 
+<polygon  points="60.5 194.856
+53 181.865
+68 181.865
+" fill="green"/> 
+<polygon  points="75.5 194.856
+68 181.865
+83 181.865
+" fill="green"/> 
+<polygon  points="90.5 194.856
+83 181.865
+98 181.865
+" fill="green"/> 
+<polygon  points="105.5 194.856
+98 181.865
+113 181.865
+" fill="green"/> 
+<polygon  points="120.5 194.856
+113 181.865
+128 181.865
+" fill="green"/> 
+<polygon  points="135.5 194.856
+128 181.865
+143 181.865
+" fill="green"/> 
+<polygon  points="150.5 194.856
+143 181.865
+158 181.865
+" fill="green"/> 
+<polygon  points="165.5 194.856
+158 181.865
+173 181.865
+" fill="green"/> 
+<polygon  points="180.5 194.856
+173 181.865
+188 181.865
+" fill="green"/> 
+<polygon  points="195.5 194.856
+188 181.865
+203 181.865
+" fill="green"/> 
+<polygon  points="210.5 194.856
+203 181.865
+218 181.865
+" fill="green"/> 
+<polygon  points="225.5 194.856
+218 181.865
+233 181.865
+" fill="green"/> 
+<polygon  points="23 207.846
+15.5 194.856
+30.5 194.856
+" fill="green"/> 
+<polygon  points="38 207.846
+30.5 194.856
+45.5 194.856
+" fill="green"/> 
+<polygon  points="53 207.846
+45.5 194.856
+60.5 194.856
+" fill="green"/> 
+<polygon  points="68 207.846
+60.5 194.856
+75.5 194.856
+" fill="green"/> 
+<polygon  points="83 207.846
+75.5 194.856
+90.5 194.856
+" fill="green"/> 
+<polygon  points="98 207.846
+90.5 194.856
+105.5 194.856
+" fill="green"/> 
+<polygon  points="113 207.846
+105.5 194.856
+120.5 194.856
+" fill="green"/> 
+<polygon  points="128 207.846
+120.5 194.856
+135.5 194.856
+" fill="green"/> 
+<polygon  points="143 207.846
+135.5 194.856
+150.5 194.856
+" fill="green"/> 
+<polygon  points="158 207.846
+150.5 194.856
+165.5 194.856
+" fill="green"/> 
+<polygon  points="173 207.846
+165.5 194.856
+180.5 194.856
+" fill="green"/> 
+<polygon  points="188 207.846
+180.5 194.856
+195.5 194.856
+" fill="green"/> 
+<polygon  points="203 207.846
+195.5 194.856
+210.5 194.856
+" fill="green"/> 
+<polygon  points="218 207.846
+210.5 194.856
+225.5 194.856
+" fill="green"/> 
+<polygon  points="233 207.846
+225.5 194.856
+240.5 194.856
+" fill="green"/> 
+<polygon  points="15.5 220.836
+8 207.846
+23 207.846
+" fill="green"/> 
+<polygon  points="30.5 220.836
+23 207.846
+38 207.846
+" fill="green"/> 
+<polygon  points="45.5 220.836
+38 207.846
+53 207.846
+" fill="green"/> 
+<polygon  points="60.5 220.836
+53 207.846
+68 207.846
+" fill="green"/> 
+<polygon  points="75.5 220.836
+68 207.846
+83 207.846
+" fill="green"/> 
+<polygon  points="90.5 220.836
+83 207.846
+98 207.846
+" fill="green"/> 
+<polygon  points="105.5 220.836
+98 207.846
+113 207.846
+" fill="green"/> 
+<polygon  points="120.5 220.836
+113 207.846
+128 207.846
+" fill="green"/> 
+<polygon  points="135.5 220.836
+128 207.846
+143 207.846
+" fill="green"/> 
+<polygon  points="150.5 220.836
+143 207.846
+158 207.846
+" fill="green"/> 
+<polygon  points="165.5 220.836
+158 207.846
+173 207.846
+" fill="green"/> 
+<polygon  points="180.5 220.836
+173 207.846
+188 207.846
+" fill="green"/> 
+<polygon  points="195.5 220.836
+188 207.846
+203 207.846
+" fill="green"/> 
+<polygon  points="210.5 220.836
+203 207.846
+218 207.846
+" fill="green"/> 
+<polygon  points="225.5 220.836
+218 207.846
+233 207.846
+" fill="green"/> 
+<polygon  points="240.5 220.836
+233 207.846
+248 207.846
+" fill="green"/> 
+ </svg> 
