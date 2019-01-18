@@ -1,0 +1,14 @@
+window_sizes 1280 713 300 974 597 64
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 128003 // diagram
+    974 597 50 A3 0 0
+end
+show_stereotypes
+selected class_ref 129027 // PolygonVect
+open
+  classview_ref 128003 // Classes
+  deploymentview_ref 128003 // Source
+  classview_ref 128131 // Diagram
+end
+end

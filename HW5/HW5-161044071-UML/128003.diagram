@@ -1,0 +1,128 @@
+format 221
+
+classcanvas 128003 class_ref 128131 // Shape
+  classdiagramsettings member_max_width 0 end
+  xyz 94.6 49.9 2000
+end
+classcanvas 128131 class_ref 128003 // Circle
+  classdiagramsettings member_max_width 0 end
+  xyz 642.4 521.6 2006
+end
+classcanvas 128387 class_ref 128259 // ComposedShape
+  classdiagramsettings member_max_width 0 end
+  xyz 374.8 144.7 2012
+end
+classcanvas 129027 class_ref 128387 // Rectangle
+  classdiagramsettings member_max_width 0 end
+  xyz 646.8 29.2 3005
+end
+classcanvas 129539 class_ref 128515 // Triangle
+  classdiagramsettings member_max_width 0 end
+  xyz 92 499.2 3005
+end
+classcanvas 130051 class_ref 128643 // Polygon
+  classdiagramsettings member_max_width 0 end
+  xyz 382 621 3011
+end
+classcanvas 130307 class_ref 128899 // PolygonDyn
+  classdiagramsettings member_max_width 0 end
+  xyz 507.7 726.6 3017
+end
+classcanvas 130563 class_ref 129027 // PolygonVect
+  classdiagramsettings member_max_width 0 end
+  xyz 253 748.9 3017
+end
+relationcanvas 128259 relation_ref 128003 // <generalisation>
+  decenter_end 850
+  from ref 128131 z 2007 to point 497.5 607.5
+  line 131587 z 2007 to point 369.5 605.5
+  line 131459 z 2007 to ref 128003
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128515 relation_ref 128131 // <generalisation>
+  decenter_begin 57
+  decenter_end 366
+  from ref 128387 z 2013 to ref 128003
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128643 relation_ref 128259 // <unidirectional association>
+  decenter_begin 160
+  from ref 128387 z 2013 stereotype "<<vector>>" xyz 243.5 224.5 2013 to ref 128003
+  role_a_pos 195 204 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128771 relation_ref 128643 // <directional composition>
+  decenter_begin 746
+  decenter_end 119
+  from ref 128387 z 2013 to ref 128131
+  role_a_pos 581 568 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128899 relation_ref 128771 // <directional composition>
+  decenter_begin 862
+  decenter_end 235
+  from ref 128387 z 2013 to ref 128131
+  role_a_pos 572 618 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129155 relation_ref 129795 // <generalisation>
+  decenter_end 82
+  from ref 129027 z 3006 to point 568.5 70
+  line 131843 z 3006 to ref 128003
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129283 relation_ref 128387 // <directional composition>
+  decenter_begin 626
+  decenter_end 851
+  from ref 128387 z 3006 to ref 129027
+  role_a_pos 590 414 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129411 relation_ref 128515 // <directional composition>
+  decenter_begin 435
+  decenter_end 668
+  from ref 128387 z 3006 to ref 129027
+  role_a_pos 579 328 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129667 relation_ref 129923 // <generalisation>
+  from ref 129539 z 3006 to ref 128003
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129795 relation_ref 128899 // <directional composition>
+  decenter_begin 417
+  decenter_end 126
+  from ref 128387 z 3006 to ref 129539
+  role_a_pos 210 568 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129923 relation_ref 129027 // <directional composition>
+  decenter_begin 733
+  decenter_end 347
+  from ref 128387 z 3006 to ref 129539
+  role_a_pos 209 714 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130179 relation_ref 129155 // <generalisation>
+  decenter_end 976
+  from ref 130051 z 3012 to ref 128003
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130435 relation_ref 129283 // <generalisation>
+  decenter_end 648
+  from ref 130307 z 3018 to ref 130051
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130691 relation_ref 129539 // <generalisation>
+  decenter_end 656
+  from ref 130563 z 3018 to ref 130051
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

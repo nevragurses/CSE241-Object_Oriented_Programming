@@ -1,0 +1,30 @@
+class Shape
+!!!144003.cpp!!!	Shape(in bigColor : char, in degreeVal : int)
+ 
+		if(color!='r' ) //If big color is not equal red,throw an exception.
+			throw invalid_argument("Container shape color must be red!-14");
+!!!144259.cpp!!!	Shape(in colorSmall : char)
+  
+		if(s_color!='g') //If small color is not equal green,throw an exception.
+			throw invalid_argument("Small shape color must be green!-15");
+!!!145539.cpp!!!	operator ==(in secondArea : Shape) : bool
+		return ( Area() == secondArea.Area());
+!!!145667.cpp!!!	operator !=(in secondArea : Shape) : bool
+		return ( Area() != secondArea.Area());
+!!!145795.cpp!!!	operator <(in secondArea : Shape) : bool
+		return (Area() < secondArea.Area());
+!!!145923.cpp!!!	operator >(in secondArea : Shape) : bool
+		return ( Area() > secondArea.Area());
+!!!146051.cpp!!!	getDegree() : int
+ return degree;
+!!!146179.cpp!!!	setDegree(in degreeVal : int) : void
+  
+		degree=degreeVal;
+!!!146307.cpp!!!	setBigColor() : void
+ color = 'r' ;
+!!!146435.cpp!!!	setSmallColor() : void
+ s_color = 'g';
+!!!146563.cpp!!!	getBigColor() : char
+ return color;
+!!!146691.cpp!!!	getSmallColor() : char
+ return s_color;

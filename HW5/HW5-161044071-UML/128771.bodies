@@ -1,0 +1,16 @@
+class Point2D
+!!!135939.cpp!!!	Point2D(in x : double, in y : double)
+ 
+		if(coordX<0 || coordY<0)
+			throw invalid_argument("2D points can't be negative! -38");
+
+!!!136067.cpp!!!	setPositions(in x : double, in y : double) : void
+ //Setting new coordinates in Point2D class.
+		coordX=x;
+		coordY=y;
+		if(coordX<0 || coordY<0)
+			throw invalid_argument("2D points can't be negative! -39");
+!!!136195.cpp!!!	get_x() : double
+		return coordX;
+!!!136323.cpp!!!	get_y() : double
+		return coordY;

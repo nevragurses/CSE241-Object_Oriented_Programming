@@ -1,0 +1,126 @@
+class Circle
+!!!128003.cpp!!!	Circle(in radiusValue : double, in color : char, in degree : int)
+		if(radius<=0) //If radius is not positive,throw exception.
+			throw invalid_argument("Radius can't be zero or negative!-16");
+!!!128131.cpp!!!	Circle(in radiusSmall : double, in colorSmall : char)
+		if(s_radius<=0) //If radius is not positive,throw exception.
+			throw invalid_argument("Radius can't be zero or negative!-17");
+!!!128387.cpp!!!	Circle(in radiusValue : double, in x : double, in y : double, in color : char)
+ 
+		if(s_radius<=0 || pos_x <0 || pos_y<0) //If radius or positions are not positive,throw exception.
+			throw invalid_argument("Radius or positions can't be negative !-18");
+!!!128515.cpp!!!	Circle(in bigX : double, in bigY : double, in smallX : double, in smallY : double, in degree : int)
+		if(bigpos_x <0 || bigpos_y<0 || pos_x <0 || pos_y<0) //If positions are not positive,throw exception.
+			throw invalid_argument(" Positions can't be negative !-19");
+!!!128643.cpp!!!	Perimeter() : double
+ 
+		if(getBigColor()=='r')
+			return (2*PI*radius); 
+		else
+			return (2*PI*s_radius);
+!!!128771.cpp!!!	Area() : double
+		if(getBigColor()=='r')
+			return (PI*radius*radius); 
+		else
+			return (PI*s_radius*s_radius);
+!!!128899.cpp!!!	draw(inout SvgFile : ostream) : void
+		//Prints container Circle in svg file.Color is determinant.
+		if(color == 'r' && degree ==0){
+			SvgFile << "<svg version=\"1.1\" baseProfile=\"full\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"> " 
+				<< " <circle cx=\"" <<  radius<< "\"" << " cy=\"" << radius
+				<< "\"" <<" r=\"" << radius << "\" "<< "fill=\"red\" /> " << endl;
+		}
+		//Prints small Circles in svg file that is not rotating.Color is determinant.
+		else if(s_color == 'g' && degree==0){
+			SvgFile << " <circle cx=\"" <<  pos_x<< "\"" << " cy=\"" << pos_y
+				<< "\"" <<" r=\"" << s_radius << "\" "<< "fill=\"green\" /> " << endl;
+		}
+		//If rotating necessary for small Circle,shape according to entered degree is rotated and prints Svg file.
+		else if(degree !=0){
+			SvgFile << " <circle cx=\"" <<  pos_x << "\"" << " cy=\"" << pos_y
+				<< "\"" <<" r=\"" << s_radius << "\" "<< "fill=\"green\" " 
+				<<"transform=\"rotate(" << degree <<","<< coordX << ","  << coordY << ")\"/> " << endl;
+		} 
+!!!129027.cpp!!!	operator ++() : Circle
+ //pre incerementing.
+		bigpos_x ++;
+		bigpos_y ++;
+		pos_x ++;
+		pos_y ++;
+		Circle circ(bigpos_x,bigpos_y,pos_x,pos_y,0);
+		Circle& tempCircle=circ;
+		return tempCircle;
+!!!129155.cpp!!!	operator ++(in ignore : int) : Circle
+ //post incrementing.
+		Circle circ(bigpos_x ++,bigpos_y ++ ,pos_x ++ ,pos_y ++,0);
+		Circle& tempCircle=circ;
+		return tempCircle;
+!!!129283.cpp!!!	operator --() : Circle
+ //pre decrementing.
+		bigpos_x --;
+		bigpos_y --;
+		pos_x --;
+		pos_y--;
+		if( bigpos_x <0 || bigpos_y<0 || pos_x <0 || pos_y<0) //If new positions  are not positive,throw exception.
+			throw invalid_argument("Positions can't be  negative! -22");
+		Circle circ(bigpos_x,bigpos_y,pos_x,pos_y,0);
+		Circle& tempCircle=circ;
+		return tempCircle;
+
+!!!129411.cpp!!!	operator --(in ignore : int) : Circle
+ //post decrementing.
+		Circle circ(bigpos_x --,bigpos_y --,pos_x --,pos_y --,0);
+		if(bigpos_x <0 || bigpos_y<0 || pos_x <0 || pos_y< 0) //If new positions  are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative! -23");
+		Circle& tempCircle=circ;
+		return tempCircle;
+!!!129539.cpp!!!	operator +(in number : double) : Circle
+		double new_radius= radius + number;
+		if(new_radius<=0) //If new radius  is not positive,throw exception.
+			throw invalid_argument("Radius can't be zero or negative!-20");
+		Circle circ(new_radius,'r',0);
+		Circle& tempCircle=circ;
+		return tempCircle;
+!!!129667.cpp!!!	operator -(in number : double) : Circle
+		double new_radius= radius - number;
+		if(new_radius<=0) //If new radius  is not positive,throw exception.
+			throw invalid_argument("Radius can't be zero or negative!-21");
+		Circle circ(new_radius,'r',0);
+		Circle& tempCircle=circ;
+		return tempCircle;
+!!!129795.cpp!!!	outputUploaded() : void
+		cout << "Position x of big:" << bigpos_x << endl << "Position y of big:" << bigpos_y << endl
+		     << "Position x of small:" << pos_x << endl << "Position y of small:" << pos_y << endl;
+!!!129923.cpp!!!	setBigCircle(in x : double, in y : double) : void
+		bigpos_x=x;
+		bigpos_y=y;
+		if(bigpos_x <0 || bigpos_y<0 ) //If  positions are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative -24");
+		
+!!!130051.cpp!!!	setCircle(in uploaded_x : double, in uploaded_y : double) : void
+		pos_x=uploaded_x;
+		pos_y=uploaded_y;
+		if(pos_x <0 || pos_y<0) //If  positions are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative -25");
+!!!130179.cpp!!!	setRotate(in x : double, in y : double) : void
+		coordX=x;
+		coordY=y;
+		if(coordX <0 || coordY<0) //If  positions for rotate are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative -26");
+			
+!!!130307.cpp!!!	getRadius() : double
+ return radius;
+!!!130435.cpp!!!	getSmallRadius() : double
+ return s_radius;
+!!!130563.cpp!!!	getPos_x() : double
+ return bigpos_x;
+!!!130691.cpp!!!	getPos_y() : double
+ return bigpos_y;
+!!!130819.cpp!!!	getSmallPosx() : double
+ return pos_x;
+!!!130947.cpp!!!	getSmallPosy() : double
+ return pos_y;
+!!!131075.cpp!!!	getRotateX() : double
+ return coordX;
+!!!131203.cpp!!!	getRotateY() : double
+ return coordY;

@@ -1,0 +1,152 @@
+class Triangle
+!!!146819.cpp!!!	Triangle(in sideValue : double, in color : char, in degree : int)
+		if(side<=0) //If side is not positive,throw exception.
+			throw invalid_argument("Side lenght can't be negative or zero! -27");
+!!!147075.cpp!!!	Triangle(in sideLenght : double, in X1 : double, in Y1 : double, in X2 : double, in Y2 : double, in X3 : double, in Y3 : double, in x1 : double, in y1 : double, in x2 : double, in y2 : double, in x3 : double, in y3 : double, in degree : int)
+		if(side<0 || big_a1<0 ||big_a2<0 || big_b1<0 || big_b2<0 || big_c1<0 || big_c2<0 || pos_a1<0 ||pos_a2<0 || pos_b1<0 || pos_b2<0 || pos_c1<0 || pos_c2<0 )
+			throw invalid_argument("Side lenght or positions can't be negative ! -29-");
+
+!!!147203.cpp!!!	Triangle(in sideValue : double, in X1 : double, in Y1 : double, in X2 : double, in Y2 : double, in X3 : double, in Y3 : double, in degree : int)
+		if(side<=0 || big_a1<0 ||big_a2<0 || big_b1<0 || big_b2<0 || big_c1<0 || big_c2<0 ) //If side or positions are not positive,throw exception.
+			throw invalid_argument("Side lenght or positions can't be negative ! -30");  
+
+!!!147331.cpp!!!	Triangle(in sideSmall : double, in color : char)
+		if(s_side<=0) //If side is not positive,throw exception.
+			throw invalid_argument("Side lenght can't be negative or zero! -28");
+!!!147459.cpp!!!	Triangle(in smallSide : double, in x1 : double, in x2 : double, in y1 : double, in y2 : double, in z1 : double, in z2 : double, in color : char)
+		if(s_side<=0 || pos_a1<0 ||pos_a2<0 || pos_b1<0 || pos_b2<0 || pos_c1<0 || pos_c2<0 )  //If side or positions are not positive,throw exception.
+			throw invalid_argument("Side lenght or positions can't be negative ! -31");	 
+
+!!!147587.cpp!!!	operator +(in number : double) : Triangle
+ 
+		double new_side=side +number;
+		if(new_side<=0) //If new side is not positive,throw exception.
+			throw invalid_argument("Side lenght can't negative or zero! -32");
+		Triangle tri(new_side,'r',0);
+		Triangle& tempTri=tri;
+		return tempTri;
+!!!147715.cpp!!!	operator -(in number : double) : Triangle
+		double new_side=side - number;
+		if(new_side<=0) //If new side is not positive,throw exception.
+			throw invalid_argument("Side lenght can't negative or zero! -33");
+		Triangle tri(new_side,'r',0);
+		Triangle& tempTri=tri;
+		return tempTri;
+		
+!!!147843.cpp!!!	operator ++() : Triangle
+ //pre incrementing.
+		Triangle tri(side,++ big_a1,++big_a2,++big_b1,++ big_b2,++big_c1,++big_c2,++ pos_a1,++pos_a2,++pos_b1,++ pos_b2,++pos_c1,++pos_c2,0);
+		Triangle& tempTri=tri;
+		return tempTri;
+!!!147971.cpp!!!	operator ++(in ignore : int) : Triangle
+ //post incrementing.
+		Triangle tri(side,big_a1++,big_a2++,big_b1++,big_b2++,big_c1++,big_c2++,pos_a1 ++,pos_a2 ++,pos_b1 ++,pos_b2 ++, pos_c1 ++, pos_c2 ++,0);
+		Triangle& tempTri=tri;
+		return tempTri;
+!!!148099.cpp!!!	operator --() : Triangle
+ //pre decrementing.
+		Triangle tri(side,-- big_a1, --big_a2,--big_b1,-- big_b2,--big_c1,--big_c2,-- pos_a1, --pos_a2, --pos_b1, --pos_b2, --pos_c1, --pos_c2,0);
+		Triangle& tempTri=tri;
+		return tempTri;
+!!!148227.cpp!!!	operator --(in ignore : int) : Triangle
+ //post decrementing.
+		Triangle tri(side,big_a1--,big_a2--,big_b1--,big_b2--,big_c1--,big_c2--,pos_a1 --,pos_a2 --,pos_b1 --,pos_b2 --, pos_c1 --, pos_c2 --,0);
+		Triangle& tempTri=tri;
+		return tempTri;
+!!!148355.cpp!!!	Perimeter() : double
+		if(getBigColor()=='r')
+			return (3*side);
+		else
+			return (3*s_side);
+!!!148483.cpp!!!	Area() : double
+		double area;
+		if(getBigColor()=='r'){
+			area=((side*side)*sqrt(3.0))/4.0;
+			return (area);
+		}
+		else{
+			area=((s_side*s_side)*sqrt(3.0))/4.0;
+			return (area);
+		}
+			
+!!!148611.cpp!!!	outputUploaded() : void
+		cout << "Position x of big:"  << endl << "1. edge: x="<< big_a1 <<", y =" <<big_a2 <<endl
+		     << "2. edge: x ="<< big_b1 <<", y = " <<big_b2 <<endl << "3. edge x= : "<< big_c1 <<", y=" << big_c2 <<endl
+		     << "Position x of small: "  << endl << "1. edge: x= "<< pos_a1 <<", y = " <<pos_a2 <<endl
+		     << "2. edge: x="<< pos_b1 <<", y = " <<pos_b2 <<endl << "3. edge: x= "<< pos_c1 <<", y = " <<pos_c2 <<endl;
+!!!148739.cpp!!!	set_smallTriangle(in smallSide : int) : void
+ // Sets the side lenght of small Triangle.
+		s_side=smallSide;
+		if(s_side<=0) //If side is not positive,throw exception.
+			throw invalid_argument("Side lenght can't be negative or zero! -35");
+!!!148867.cpp!!!	setRotate(in x : double, in y : double) : void
+		rotateX=x;
+		rotateY=y;
+		if(rotateX<0 ||rotateY<0) //If positions of rotate are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative! -34");
+			
+!!!148995.cpp!!!	setBigTriangle(in a1 : double, in a2 : double, in b1 : double, in b2 : double, in c1 : double, in c2 : double) : void
+		big_a1=a1,a2=a2;
+		big_b1=b1,b2=b2;
+		big_c1=c1,big_c2=c2;
+		if(big_a1<0 ||big_a2<0 || big_b1<0 || big_b2<0 || big_c1<0 || big_c2<0 ) //If positions  are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative ! -36");
+!!!149123.cpp!!!	setTriangle(in new_a1 : double, in new_a2 : double, in new_b1 : double, in new_b2 : double, in new_c1 : double, in new_c2 : double) : void
+		pos_a1=new_a1,pos_a2=new_a2;
+		pos_b1=new_b1,pos_b2=new_b2;
+		pos_c1=new_c1,pos_c2=new_c2;
+		if(pos_a1<0 ||pos_a2<0 || pos_b1<0 || pos_b2<0 || pos_c1<0 || pos_c2<0 ) //If positions are not positive,throw exception.
+			throw invalid_argument("Positions can't be negative ! -37");
+!!!149251.cpp!!!	draw(inout SvgFile : ostream) : void
+		//Prints container Triangle in svg file.Color is determinant.
+		if(color == 'r' && degree ==0){
+			SvgFile << "<svg version=\"1.1\" baseProfile=\"full\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"> " 
+				<< "<polygon  points=\"" << side/2.0 << " " << 0 << " " << 0 << " " 
+				<< (side/2.0)*sqrt(3.0) << " "<<side <<" "<< (side/2.0)*sqrt(3.0)  << "\" fill=\"red\"/> "<< endl;
+		}
+		//Prints small Triangles in svg file that is not rotating.Color is determinant.
+		else if(s_color == 'g' && degree == 0){
+			SvgFile << "<polygon  points=\"" << pos_a1 << " " << pos_a2 << " " << pos_b1 << " " 
+				<< pos_b2 << " "<< pos_c1 << " " << pos_c2  << "\" fill=\"green\"/> "<< endl; 
+		}
+		//If rotating necessary for small Triangle,shape according to entered degree is rotated and prints Svg file.
+		else if(degree!=0){ 
+			SvgFile <<"<polygon transform=\"rotate(" << degree << " " <<  rotateX << " "  << rotateY
+				<< ")\" points=\"" << pos_a1 << " " << pos_a2 
+				<< " " << pos_b1<< " "  << pos_b2 << " "  << pos_c1 << " "  << pos_c2 << "\" fill=\"green\"/> " << endl;
+		}
+	
+!!!149379.cpp!!!	getSide() : double
+ return side;
+!!!149507.cpp!!!	getSmallSide() : double
+ return s_side;
+!!!149635.cpp!!!	getDegree() : int
+return degree;
+!!!149763.cpp!!!	getPos_a1() : double
+  return pos_a1;
+!!!149891.cpp!!!	getPos_a2() : double
+  return pos_a2;
+!!!150019.cpp!!!	getPos_b1() : double
+  return pos_b1;
+!!!150147.cpp!!!	getPos_b2() : double
+  return pos_b2;
+!!!150275.cpp!!!	getPos_c1() : double
+  return pos_c1;
+!!!150403.cpp!!!	getPos_c2() : double
+  return pos_c2;
+!!!150531.cpp!!!	getBig_a1() : double
+  return big_a1;
+!!!150659.cpp!!!	getBig_a2() : double
+  return big_a2;
+!!!150787.cpp!!!	getBig_b1() : double
+  return big_b1;
+!!!150915.cpp!!!	getBig_b2() : double
+  return big_b2;
+!!!151043.cpp!!!	getBig_c1() : double
+  return big_c1;
+!!!151171.cpp!!!	getBig_c2() : double
+  return big_c2;
+!!!151299.cpp!!!	getRotateX() : double
+ return rotateX;
+!!!151427.cpp!!!	getRotateY() : double
+ return rotateY;

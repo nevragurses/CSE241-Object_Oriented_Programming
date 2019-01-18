@@ -1,0 +1,9 @@
+class Polygon
+!!!136707.cpp!!!	getRotateX() : double
+return rotateX;
+!!!136835.cpp!!!	getSize() : int
+ return size;
+!!!136963.cpp!!!	getColorPoly() : char
+ return colorPoly;
+!!!137091.cpp!!!	getRotateY() : double
+ return rotateY;

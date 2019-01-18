@@ -1,0 +1,162 @@
+class Rectangle
+!!!140163.cpp!!!	Rectangle(in widthValue : int, in heightValue : int, in x : double, in y : double, in bigColor : char, in degree : int)
+		if(width <=0 || height <=0) //If  height or width are not positive number,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero!-1");
+!!!140291.cpp!!!	Rectangle(in bigX : double, in bigY : double, in smallX : double, in smallY : double, in degree : int)
+ 
+		if(pos_x <0 || pos_y < 0 || s_posX < 0 || s_posY < 0 ) //If  height or width or positions are not positive number,throw an exception.
+			throw invalid_argument("Positions can't be negative !-3");
+
+!!!140419.cpp!!!	Rectangle(in widthValue : double, in heightValue : double, in color : char)
+
+		if(s_width <=0 || s_height <= 0) //If  height or width are not positive number,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero!-4");
+!!!140547.cpp!!!	Rectangle(in widthValue : double, in heightValue : double, in degree : int)
+		if(width <=0 || height <=0) //If  height or width are not positive number,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero!-2"); 
+!!!140675.cpp!!!	Rectangle(in smallHeight : int, in smallWidth : int, in posX : double, in posY : double, in color : char)
+ 
+		if(s_posX <0 || s_posY < 0 || s_height <= 0 || s_width <= 0 )  //If  height or width or positions are not positive number,throw an exception.
+			throw invalid_argument("Positions or height or width can't be negative!-5");
+!!!140931.cpp!!!	Perimeter() : double
+		if(getBigColor()=='r')
+			return ((2*width)+(2*height));
+		else
+			return ((2*s_width)+(2*s_height));
+!!!141059.cpp!!!	Area() : double
+		if(getBigColor()=='r')
+		 	return (width*height);
+		else
+			return (s_width*s_height);
+
+
+!!!141187.cpp!!!	operator +(in number : double) : Rectangle
+		double new_height=height + number;
+		double new_width=width +number;
+		if(new_height<=0 || new_width<=0){ //If new height or width are not positive number,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero!-6");
+		}
+		Rectangle rect(new_width,new_height,0);
+		Rectangle& tempRect=rect;
+		return tempRect;
+!!!141315.cpp!!!	operator -(in number : double) : Rectangle
+		double new_height=height - number;
+		double new_width=width  - number;
+		if(new_height<=0 || new_width<=0){ //If new height or width are not positive number,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero!-7");
+		}
+		Rectangle rect(new_width,new_height,0);
+		Rectangle& tempRect=rect;
+		return tempRect;
+!!!141443.cpp!!!	operator ++() : Rectangle
+ //pre incrementing.
+		pos_x ++;
+		pos_y ++;
+		s_posX ++;
+		s_posY ++;
+
+		Rectangle rect(pos_x,pos_y,s_posX,s_posY,0);
+		Rectangle& tempRect=rect;
+		return tempRect;
+
+!!!141571.cpp!!!	operator ++(in ignore : int) : Rectangle
+ //post incrementing.
+		Rectangle rect(pos_x ,pos_y  ,s_posX  ,s_posY ,0);
+		pos_x ++;
+		pos_y ++;
+		s_posX ++;
+		s_posY ++;
+		
+		Rectangle& tempRect=rect;
+		return tempRect;
+!!!141699.cpp!!!	operator --() : Rectangle
+ //pre decrementing.
+		pos_x --;
+		pos_y --;
+		s_posX --;
+		s_posY --;
+		if(pos_x <0 || pos_y < 0 || s_posX < 0 || s_posY < 0 )  { //If new positions are not positive,throw an exception.
+			throw invalid_argument("Positions can't be negative!-8");
+		}
+		Rectangle rect(pos_x,pos_y,s_posX,s_posY,0);
+		Rectangle& tempRect=rect;
+		return tempRect;
+!!!141827.cpp!!!	operator --(in ignore : int) : Rectangle
+ //post decrementing.
+		Rectangle rect(pos_x ,pos_y  ,s_posX  ,s_posY ,0);
+		pos_x --;
+		pos_y --;
+		s_posX --;
+		s_posY --;
+		if(pos_x <0 || pos_y < 0 || s_posX < 0 || s_posY < 0 ){  //If new positions are not positive,throw an exception.
+			throw invalid_argument("Positions can't be negative!-9");
+		}
+		Rectangle& tempRect=rect;
+		return tempRect;
+!!!141955.cpp!!!	outputUploaded() : void
+		cout << "Position x of big:" << pos_x << endl << "Position y of big:" << pos_y << endl
+		     << "Position x of small:" << s_posX << endl << "Position y of small:" << s_posY << endl;
+!!!142083.cpp!!!	output() : void
+ //Prints features of rectangle.
+		cout << "Height of New Rectange is:" << height << endl
+	    	     <<"Width of New Rectangle is:"  << width << endl;
+!!!142211.cpp!!!	setRectangle(in widthValue : double, in heightValue : double, in uploaded_x : double, in uploaded_y : double) : void
+		s_width=widthValue;
+		s_height=heightValue;
+		s_posX=uploaded_x;
+		s_posY=uploaded_y;
+
+		if(s_width <=0 || s_height <= 0 || s_posX < 0 || s_posY < 0 )  { //If positions or height or width is not positive,throw an exception.
+			throw invalid_argument("Positions or height or width can't be negative !-10");
+		}
+!!!142339.cpp!!!	setSmall(in sWidth : double, in sHeight : double) : void
+  
+		s_width=sWidth;
+		s_height=sHeight;
+		if(s_width <=0 || s_height <=0) //If  height or width is not positive,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero!-11");
+!!!142467.cpp!!!	setRectangle2(in widthValue : double, in heightValue : double, in uploaded_x : double, in uploaded_y : double) : void
+		s_posX=uploaded_x;
+		s_posY=uploaded_y;
+		s_width=heightValue;
+		s_height=widthValue;
+
+		if(s_width <=0 || s_height <= 0 || s_posX < 0 || s_posY < 0 )  { //If positions or height or width is not positive,throw an exception.
+			throw invalid_argument("Positions or height or width can't be negative !-12");
+		}
+!!!142595.cpp!!!	setNewSmall(in value1 : double, in value2 : double) : void
+		s_width=value1;
+		s_height=value2;
+		if(s_width <=0 || s_height <=0) //If  height or width is not positive,throw an exception.
+			throw invalid_argument("Height or width can't be negative and zero !-13");
+!!!142723.cpp!!!	draw(inout SvgFile : ostream) : void
+		//Prints container rectangle in Svg file.Color is determinant.
+		if( color == 'r'){
+			SvgFile << "<svg version=\"1.1\" baseProfile=\"full\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"> " << endl
+				<< " <rect width=\""<< width  << "\" height=\"" << height  << "\"" << " fill=\"red\" /> " << endl;
+		}
+		//Prints small rectangle in Svg file.Color is determinant.
+		else if(s_color == 'g'){
+			SvgFile << " <rect x=\"" << s_posX << "\"" << " y=\""<< s_posY
+				<< "\"" << " width=\"" <<  s_width << "\"" << " height=\"" << s_height
+				<< "\"" << " fill=\"green\"  stroke=\"black\"" << "/>" << endl;
+		}
+
+
+
+!!!142851.cpp!!!	getHeight() : double
+ return height;
+!!!142979.cpp!!!	getWidth() : double
+ return width;
+!!!143107.cpp!!!	getSmallHeight() : double
+ return s_height;
+!!!143235.cpp!!!	getSmallWidth() : double
+ return s_width;
+!!!143363.cpp!!!	getPos_x() : double
+ return pos_x;
+!!!143491.cpp!!!	getPos_y() : double
+ return pos_y;
+!!!143619.cpp!!!	getSmallPos_x() : double
+ return s_posX;
+!!!143747.cpp!!!	getSmallPos_y() : double
+ return s_posY;
